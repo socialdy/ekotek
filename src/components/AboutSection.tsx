@@ -2,10 +2,10 @@ import { Check } from "lucide-react";
 
 export const AboutSection = () => {
   const benefits = [
-    "Über 50 Jahre Erfahrung in der Lackfrontenfertigung – Qualität aus Tradition.",
-    "Hochmoderne Produktionsanlagen auf 3000 qm für präzise und langlebige Oberflächen.",
-    "Maßgeschneiderte Lösungen für Industrie, Handwerk und Innenausbau.",
-    "Individuelle Farbgestaltung mit einer jährlich aktualisierten Farbpalette.",
+    "Über 40 Jahre Erfahrung in der Edelstahlverarbeitung – maßgeschneiderte Lösungen aus bester Made-in-Italy-Tradition.",
+    "Einsatz modernster Technologie und hochspezialisiertem Personal für einzigartige Edelstahlprodukte.",
+    "Individuelle Küchenlösungen für Industrie, Handwerk und Design, die höchste Flexibilität bieten.",
+    "Weltweit unterstützender Service durch das Netzwerk der Foster Group und maßgeschneiderte Produktintegrationen.",
   ];
 
   return (
@@ -13,15 +13,20 @@ export const AboutSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <video controls className="shadow-xl h-full w-full">
-              <source src="https://www.wolter-lackfronten.de/wp-content/uploads/2020/10/Wolter_Lackfronten_GmbH_Handwerker.mp4" type="video/mp4" />
-              Dein Browser unterstützt kein Video-Tag.
-            </video>
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/OOk5SjgKJjQ"
+              title="Bautek Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div className="animate-fade-in">
-            <h2 className="mb-6">Warum Wolter Lackfronten?</h2>
+            <h2 className="mb-6">Warum Bautek von der Foster Group?</h2>
             <p className="mb-8">
-              Wolter Lackfronten vereint langjährige Erfahrung mit modernster Technik. Unser Anspruch ist höchste Präzision, Qualität und Flexibilität – von Einzelstücken bis hin zur Serienfertigung.
+              Bautek kombiniert jahrzehntelange Erfahrung mit moderner Technologie und höchster Präzision, um maßgeschneiderte Edelstahllösungen zu schaffen, die sowohl funktional als auch ästhetisch sind.
             </p>
             <ul className="space-y-4">
               {benefits.map((benefit, index) => (

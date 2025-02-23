@@ -1,18 +1,18 @@
 export const CompanyIntro = () => {
   return (
-    <section className="py-20 bg-white" id="ueber-wolter">
+    <section className="py-20 bg-[#1c2628]" id="ueber-bautek">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
           <img 
-            src="/images/wf_logo.png" 
-            alt="Wolter Lackfronten Logo" 
-            className="h-20 w-auto"
+            src="/images/bautek_logo_white.png" 
+            alt="Bautek Logo" 
+            className="h-16 w-auto"
           />
         </div>
 
-        <div className="mt-6 text-center">
-          <p className=" mb-6">
-            Seit über 50 Jahren fertigt Wolter Lackfronten hochwertige Lackoberflächen für Möbel und Innenausbau. In dritter Generation setzt das Unternehmen Maßstäbe in Qualität, Präzision und Design. Mit modernster Technik auf 3000 qm Produktionsfläche entstehen individuelle Lösungen – von Einzelstücken bis hin zur Serienfertigung. Durch jahrelange Erfahrung und enge Zusammenarbeit mit Industrie, Handwerk und Innenarchitekten garantiert Wolter höchste Flexibilität und exzellente Ergebnisse.
+        <div className="mt-6 text-center text-white">
+          <p className="mb-6">
+            Seit über 40 Jahren formt Bautek Edelstahl, um einzigartige und exklusive Küchenlösungen in bester Made-in-Italy-Tradition zu schaffen. Das Unternehmen nutzt modernste Technologie und hochspezialisiertes Personal, um maßgeschneiderte Produkte zu fertigen. Diese einzigartigen Edelstahlkreationen bieten sowohl höchste Qualität als auch außergewöhnliches Design. Durch die enge Zusammenarbeit mit der Foster Group und deren globalem Netzwerk garantiert Bautek maßgeschneiderte Lösungen und erstklassigen Service weltweit.
           </p>
         </div>
       </div>

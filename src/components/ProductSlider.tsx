@@ -6,41 +6,30 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const products = [
   {
     id: 1,
-    name: "METALL",
-    image: "/images/metall.png", 
-    description: "Burnished Brush",
+    name: "Finalmente",
+    image: "/images/finalmente.jpg", // Beispielbild
+    description: "Eine mobile Outdoorküche aus marinem Edelstahl (AISI 316), die sich durch ihre hohe Verarbeitungsqualität und das Design auszeichnet.",
   },
   {
     id: 2,
-    name: "OSLO",
-    image: "/images/oslo.png", 
-    description: "Griffe aus Edelstahl, Lack und Glas – Griffausschnitt farbig wählbar",
+    name: "Insieme",
+    image: "/images/insieme.jpg", // Beispielbild
+    description: "Eine funktionale Outdoorküche aus marinem Edelstahl mit individuell anpassbaren Oberflächen und robuster Struktur.",
   },
   {
     id: 3,
-    name: "GROOVE",
-    image: "/images/groove.png", 
-    description: "Lineare Struktur – ein Spiel mit Licht und Schatten",
+    name: "QUI",
+    image: "/images/qui.jpg", // Beispielbild
+    description: "Komplexe Küchenmodule aus marinem Edelstahl, die flexibel kombinierbar sind und sich an die Bedürfnisse des Nutzers anpassen lassen.",
   },
   {
     id: 4,
-    name: "SIENA",
-    image: "/images/siena.png", 
-    description: "Moderne Landhausfronten – eine zeitgemäße Variante traditioneller Landhausstil-Architektur",
-  },
-  {
-    id: 5,
-    name: "STONE-VENEER",
-    image: "/images/stone-veneer.png", 
-    description: "Ein Hauch von Stein – jedes Blatt ein Unikat",
-  },
-  {
-    id: 6,
-    name: "BETON",
-    image: "/images/beton.png", 
-    description: "Beton und Holz – in Kombination mit Cover-Griffleiste",
+    name: "Ognidove",
+    image: "/images/ognidove.jpg", // Beispielbild
+    description: "Freistehende, mobile Kochfelder mit modernen Funktionen und technischer Exzellenz für höchste Ansprüche.",
   },
 ];
+
 
 
 
@@ -79,7 +68,7 @@ export const ProductSlider = () => {
                       className=""
                     />
                     <div className="p-6 md:p-8 text-center">
-                      <h3 className=" mb-2">{product.name}</h3>
+                      <h3 className="mb-3">{product.name}</h3>
                       <p className=" mb-4">{product.description}</p>
                     </div>
                   </div>

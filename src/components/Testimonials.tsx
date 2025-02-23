@@ -12,30 +12,30 @@ export const Testimonials = () => {
       id: 1,
       name: "Andreas Hofmann",
       role: "Innenarchitekt",
-      quote: "Die Stone-Veneer-Fronten von Wolter sind einzigartig. Jedes Blatt hat eine individuelle Maserung, was meinen Projekten eine exklusive Note verleiht. Kunden sind begeistert von der natürlichen Optik und der hochwertigen Verarbeitung.",
+      quote: "Die Finalmente-Outdoorküche hat mich wirklich überzeugt. Der marinem Edelstahl macht nicht nur optisch was her, sondern hält auch allen Bedingungen im Freien stand. Sie ist gut durchdacht, hat viel Stauraum und ist für meine Kunden genau das, was sie sich gewünscht haben – modern und gleichzeitig funktional.",
     },
     {
       id: 2,
       name: "Sabine Keller",
       role: "Privatkunde",
-      quote: "Wir haben uns für die Groove-Lackfronten entschieden, weil wir eine moderne Küche mit besonderen Akzenten wollten. Das Spiel mit Licht und Schatten durch die feine Struktur macht unsere Küche zu einem echten Blickfang.",
+      quote: "Wir haben uns für die Insieme-Outdoorküche entschieden und ich kann sie nur empfehlen. Die Anpassungsfähigkeit der Oberflächen hat mir geholfen, die Küche perfekt in unseren Garten einzufügen. Das Material fühlt sich hochwertig an, und die Funktionalität ist einfach top – genau, was wir uns gewünscht haben.",
     },
     {
       id: 3,
       name: "Johannes Meier",
       role: "Schreinermeister",
-      quote: "Wolter Lackfronten bietet eine Qualität, die man sieht und fühlt. Besonders beeindruckt bin ich von den Oslo-Fronten mit Edelstahlgriffen – edel, robust und absolut präzise verarbeitet.",
+      quote: "Die QUI-Küchenmodule sind wirklich ein Highlight in meinen Projekten. Sie lassen sich so flexibel kombinieren, dass sie in jede noch so anspruchsvolle Küche passen. Der Edelstahl ist robust und die Module lassen sich einfach montieren – für mich als Handwerker eine wahre Freude.",
     },
     {
       id: 4,
       name: "Katrin Lehmann",
       role: "Möbeldesignerin",
-      quote: "Die Metallic-Lackierungen von Wolter sind ein Traum für moderne Interieurs. Die Burnished Brush Oberfläche verleiht den Möbeln eine edle und zugleich industrielle Note – genau das, was meine Kunden suchen.",
+      quote: "Die Ognidove Kochfelder sind absolut genial. Sie sind nicht nur funktional, sondern haben auch einen besonderen ästhetischen Wert. Das Design ist modern und lässt sich hervorragend in hochwertige Küchen integrieren. Genau das, was ich für meine Kunden suche – eine perfekte Kombination aus Technik und Stil.",
     },
   ];
 
   return (
-    <section className="py-20 bg-[#F4F4F4] text-white" id="referenzen">
+    <section className="py-20 bg-[#F2F2F2] text-black" id="referenzen">
       <div className="container max-w-6xl mx-auto px-4">
         <h2 className="text-center mb-16">Referenzen</h2>
         <Carousel opts={{ align: "start", loop: true }} className="w-full max-w-5xl mx-auto relative">

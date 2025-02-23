@@ -3,32 +3,33 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="/images/hero_bg.jpg"
-          alt="Wolter Lackfronten Küche"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40" />
-      </div>
+    <section
+      className="relative h-screen flex items-center bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/hero_bg.jpg')" }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/70" />
 
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-white">
         <div className="max-w-7xl animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-6  max-w-screen-lg break-words font-roboto">
-            Maßgeschneiderte Küchenfronten von Wolter Lackfronten
+          <div className="absolute top-[-50px] left-0 w-[130px] h-[7px] bg-[#6f8e94]" />
+          
+          {/* Hero Title */}
+          <h1 className="text-white mb-6 max-w-screen-lg break-words ">
+            Exklusive Outdoor-Küchen von Bautek
           </h1>
 
-          <p className=" text-white">
-            Entdecken Sie exklusive Küchenfronten von Wolter Lackfronten –{' '}
+          {/* Hero Description */}
+          <p className="text-white">
+            Entdecken Sie die Welt der exklusiven Outdoor-Küchen von Bautek.
             <br />
-            Qualität und Innovation für Ihre Traumküche im Küchenstudio Bergheim
+            Hochwertige Materialien und innovative Lösungen für Ihre Außenküche – direkt aus dem Küchenstudio Bergheim.
           </p>
 
+          {/* Button */}
           <a href="/#beratung">
-            <Button className="bg-[#469CE9] hover:bg-[#469CE9]/80 text-white px-6 py-3 mt-9">
+            <Button className="mt-6 text-white bg-transparent hover:bg-transparent px-[1rem] py-[1.5rem]  uppercase border-[1px] border-white/40 rounded-[4px] tracking-[0.15em] transition-all">
               Beratungstermin buchen
             </Button>
           </a>

@@ -7,65 +7,69 @@ export const Header = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
   return (
-    <header className="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+    <header className="fixed w-full top-0 z-50 bg-white backdrop-blur-sm border-b border-white">
       <div className="container mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
-  <a href="/" className="h-6 sm:h-8">
-    <img
-      src="/images/wf_logo.png"
-      alt="Wolter Lackfronten Logo"
-      className="h-full"
-    />
-  </a>
-  <a href="https://kuechenstudio-bergheim.at" className="h-11 sm:h-14">
+            <a href="/" className="h-6 sm:h-8">
+              <img
+                src="/images/bautek_logo.png"  // Bautek-Logo
+                alt="Bautek Logo"
+                className="h-full"
+              />
+            </a>
+            <a href="https://kuechenstudio-bergheim.at" className="h-11 sm:h-14">
     <img
       src="/images/me_logo_black.png"
       alt="Küchenstudio Bergheim Logo"
       className="h-full"
     />
   </a>
-</div>
+          </div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <a
               href="#produkte"
-              className="hover:text-[#469CE9]/80"
+              className=""
             >
               Produkte
             </a>
             <a
-              href="#ueber-wolter-lackfronten"
-              className="hover:text-[#469CE9]/80"
+              href="#ueber-bautek"
+              className=""
             >
-              Über Wolter Lackfronten
+              Über Bautek
             </a>
             <a
               href="/#referenzen"
-              className="hover:text-[#469CE9]/80"
+              className=""
             >
               Referenzen
             </a>
-            <a href="/#beratung" className="hover:text-[#469CE9]/80">
-                Jetzt Beratung anfordern
-            </a>
+            <a href="/#beratung">
+            <Button className=" text-black bg-transparent hover:bg-transparent px-[1rem] py-[1.5rem]  uppercase border-[1px] border-black/40 rounded-[4px] tracking-[0.15em] transition-all">
+              Termin vereinbaren
+            </Button>
+          </a>
           </div>
 
           {/* Hamburger Menu Icon */}
           <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text[#469CE9] hover:text-[#469CE9]/80 focus:outline-none"
+              className="text-black] hover:text-black focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="black"
               >
                 <path
                   strokeLinecap="round"
@@ -80,32 +84,35 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md">
+          <div className="lg:hidden bg-white text-black mobile  shadow-md">
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
-                className="hover:text-[#469CE9]/80"
+                className=""
                 onClick={toggleMobileMenu}
               >
                 Produkte
               </a>
               <a
-                href="/#ueber-wolter-lackfronten"
-                className="hover:text-[#469CE9]/80"
+                href="/#ueber-bautek"
+                className=""
                 onClick={toggleMobileMenu}
               >
-                Über Wolter Lackfronten
+                Über Bautek
               </a>
               <a
                 href="/#referenzen"
-                className="hover:text-[#469CE9]/80"
+                className=""
                 onClick={toggleMobileMenu}
               >
                 Referenzen
               </a>
-              <a href="/#beratung" onClick={toggleMobileMenu} className="hover:text-[#469CE9]/80">
-                  Jetzt Beratung anfordern
+              <a href="/#beratung">
+              <Button className=" text-black bg-transparent hover:bg-transparent px-[1rem] py-[1.5rem]  uppercase border-[1px] border-black/40 rounded-[4px] tracking-[0.15em] transition-all">
+               Termin vereinbaren
+            </Button>
               </a>
+
             </div>
           </div>
         )}
