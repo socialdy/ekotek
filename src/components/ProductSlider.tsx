@@ -6,29 +6,30 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const products = [
   {
     id: 1,
-    name: "Finalmente",
-    image: "/images/finalmente.jpg", // Beispielbild
-    description: "Eine mobile Outdoorküche aus marinem Edelstahl (AISI 316), die sich durch ihre hohe Verarbeitungsqualität und das Design auszeichnet.",
+    name: "Corian",
+    image: "/images/corian.jpg", // Beispielbild
+    description: "Nicht poröses, homogenes Material, ideal für Arbeitsplatten, Waschbecken, Spülen und viele andere Anwendungen.",
   },
   {
     id: 2,
-    name: "Insieme",
-    image: "/images/insieme.jpg", // Beispielbild
-    description: "Eine funktionale Outdoorküche aus marinem Edelstahl mit individuell anpassbaren Oberflächen und robuster Struktur.",
+    name: "Betacryl",
+    image: "/images/betacryl.jpg", // Beispielbild
+    description: "Solid Surface mit hervorragender mechanischer Widerstandsfähigkeit, besonders hygienisch.",
   },
   {
     id: 3,
-    name: "QUI",
-    image: "/images/qui.jpg", // Beispielbild
-    description: "Komplexe Küchenmodule aus marinem Edelstahl, die flexibel kombinierbar sind und sich an die Bedürfnisse des Nutzers anpassen lassen.",
+    name: "Fenix",
+    image: "/images/fenix.jpg", // Beispielbild
+    description: "Nanotechnologisches Material mit einer multisträngigen Beschichtung, die durch ein innovatives Kaltpolymerisationsverfahren fixiert wird.",
   },
   {
     id: 4,
-    name: "Ognidove",
-    image: "/images/ognidove.jpg", // Beispielbild
-    description: "Freistehende, mobile Kochfelder mit modernen Funktionen und technischer Exzellenz für höchste Ansprüche.",
+    name: "Paperstone",
+    image: "/images/paperstone.jpg", // Beispielbild
+    description: "Der weltweit erste Verbundwerkstoff aus 100 % recyceltem Papier und Karton, FSC®-zertifiziert.",
   },
 ];
+
 
 
 

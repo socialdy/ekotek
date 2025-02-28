@@ -2,10 +2,10 @@ import { Check } from "lucide-react";
 
 export const AboutSection = () => {
   const benefits = [
-    "Über 40 Jahre Erfahrung in der Edelstahlverarbeitung – maßgeschneiderte Lösungen aus bester Made-in-Italy-Tradition.",
-    "Einsatz modernster Technologie und hochspezialisiertem Personal für einzigartige Edelstahlprodukte.",
-    "Individuelle Küchenlösungen für Industrie, Handwerk und Design, die höchste Flexibilität bieten.",
-    "Weltweit unterstützender Service durch das Netzwerk der Foster Group und maßgeschneiderte Produktintegrationen.",
+    "Über 40 Jahre Erfahrung in der Verarbeitung innovativer Materialien wie Corian, Betacryl, Fenix und Paperstone.",
+    "Spezialisiert auf maßgeschneiderte Lösungen mit modernen und innovativen Werkstoffen für unterschiedlichste Anwendungen.",
+    "Individuelle Lösungen für Küchen, Badezimmer, Büros und viele weitere Projekte, die höchste Anforderungen an Design und Funktionalität erfüllen.",
+    "Weltweite Unterstützung durch das Netzwerk der Foster Group und maßgeschneiderte Integrationen für optimale Ergebnisse.",
   ];
 
   return (
@@ -13,20 +13,17 @@ export const AboutSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <iframe
-              width="100%"
-              height="315"
-              src="https://www.youtube.com/embed/OOk5SjgKJjQ"
-              title="Bautek Video"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+              <img 
+                src="images/aboutsec.jpg" 
+                alt="Ekotek Website"
+                className="w-full h-auto" 
+              />
           </div>
           <div className="animate-fade-in">
-            <h2 className="mb-6">Warum Bautek von der Foster Group?</h2>
+            <h2 className="mb-6">Warum Ekotek von der Foster Group?</h2>
             <p className="mb-8">
-              Bautek kombiniert jahrzehntelange Erfahrung mit moderner Technologie und höchster Präzision, um maßgeschneiderte Edelstahllösungen zu schaffen, die sowohl funktional als auch ästhetisch sind.
+              Ekotek vereint jahrelange Erfahrung und innovative Materialien wie Corian, Betacryl, Fenix und Paperstone,
+              um maßgeschneiderte Lösungen zu schaffen, die Design und Funktion perfekt kombinieren.
             </p>
             <ul className="space-y-4">
               {benefits.map((benefit, index) => (

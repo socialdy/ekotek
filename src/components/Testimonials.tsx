@@ -10,27 +10,27 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Andreas Hofmann",
+      name: "Markus Weber",
       role: "Innenarchitekt",
-      quote: "Die Finalmente-Outdoorküche hat mich wirklich überzeugt. Der marinem Edelstahl macht nicht nur optisch was her, sondern hält auch allen Bedingungen im Freien stand. Sie ist gut durchdacht, hat viel Stauraum und ist für meine Kunden genau das, was sie sich gewünscht haben – modern und gleichzeitig funktional.",
+      quote: "Die Verwendung von Corian für die Arbeitsplatte in meiner neuesten Küche war eine großartige Entscheidung. Das Material ist nicht nur optisch ansprechend, sondern auch extrem widerstandsfähig. Es vereint Design und Funktionalität perfekt und erfüllt die Erwartungen meiner anspruchsvollen Kunden.",
     },
     {
       id: 2,
-      name: "Sabine Keller",
+      name: "Claudia Müller",
       role: "Privatkunde",
-      quote: "Wir haben uns für die Insieme-Outdoorküche entschieden und ich kann sie nur empfehlen. Die Anpassungsfähigkeit der Oberflächen hat mir geholfen, die Küche perfekt in unseren Garten einzufügen. Das Material fühlt sich hochwertig an, und die Funktionalität ist einfach top – genau, was wir uns gewünscht haben.",
+      quote: "Ich habe mich für Betacryl entschieden, um die Arbeitsplatte meiner Küche zu gestalten. Es fühlt sich hochwertig an und ist unglaublich pflegeleicht. Ich bin begeistert von der Widerstandsfähigkeit des Materials und wie gut es sich in das moderne Design meiner Küche einfügt.",
     },
     {
       id: 3,
-      name: "Johannes Meier",
+      name: "Tom Becker",
       role: "Schreinermeister",
-      quote: "Die QUI-Küchenmodule sind wirklich ein Highlight in meinen Projekten. Sie lassen sich so flexibel kombinieren, dass sie in jede noch so anspruchsvolle Küche passen. Der Edelstahl ist robust und die Module lassen sich einfach montieren – für mich als Handwerker eine wahre Freude.",
+      quote: "Fenix ist für mich als Handwerker eine ideale Wahl. Es lässt sich leicht verarbeiten und ist äußerst widerstandsfähig. Meine Kunden lieben das matte Finish und die Langlebigkeit dieses Materials – es bringt jede Küche auf ein neues Level.",
     },
     {
       id: 4,
-      name: "Katrin Lehmann",
+      name: "Laura Schmidt",
       role: "Möbeldesignerin",
-      quote: "Die Ognidove Kochfelder sind absolut genial. Sie sind nicht nur funktional, sondern haben auch einen besonderen ästhetischen Wert. Das Design ist modern und lässt sich hervorragend in hochwertige Küchen integrieren. Genau das, was ich für meine Kunden suche – eine perfekte Kombination aus Technik und Stil.",
+      quote: "Paperstone war die perfekte Wahl für ein nachhaltiges Designprojekt, das ich kürzlich abgeschlossen habe. Es kombiniert Umweltfreundlichkeit mit einem modernen, robusten Design. Meine Kunden sind begeistert von der Mischung aus Ästhetik und Funktionalität.",
     },
   ];
 

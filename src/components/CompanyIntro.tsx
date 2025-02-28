@@ -1,18 +1,18 @@
 export const CompanyIntro = () => {
   return (
-    <section className="py-20 bg-[#1c2628]" id="ueber-bautek">
+    <section className="py-20 bg-[#333333]" id="ueber-ekotek">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
           <img 
-            src="/images/bautek_logo_white.png" 
-            alt="Bautek Logo" 
+            src="/images/ekotek_logo_white.png" 
+            alt="Ekotek Logo" 
             className="h-16 w-auto"
           />
         </div>
 
         <div className="mt-6 text-center text-white">
           <p className="mb-6">
-            Seit über 40 Jahren formt Bautek Edelstahl, um einzigartige und exklusive Küchenlösungen in bester Made-in-Italy-Tradition zu schaffen. Das Unternehmen nutzt modernste Technologie und hochspezialisiertes Personal, um maßgeschneiderte Produkte zu fertigen. Diese einzigartigen Edelstahlkreationen bieten sowohl höchste Qualität als auch außergewöhnliches Design. Durch die enge Zusammenarbeit mit der Foster Group und deren globalem Netzwerk garantiert Bautek maßgeschneiderte Lösungen und erstklassigen Service weltweit.
+            Ekotek, Teil der Foster Group, ist auf die Verarbeitung von innovativen Materialien Materialien wie Corian, Solid Surface, Fenix und Paperstone spezialisiert. Das Unternehmen bietet maßgeschneiderte Lösungen, die nach den individuellen Anforderungen der Kunden entwickelt werden. Besonders bekannt ist Ekotek für die Produktion von speziellen Küchenarbeitsplatten und Möbeln, die höchste Ansprüche an Design, Funktionalität und Effizienz erfüllen. Mit einem Team aus Fachleuten und modernster Technologie schafft Ekotek langlebige, ästhetische und funktionale Lösungen, die den Raum über Jahre hinweg bereichern.
           </p>
         </div>
       </div>

@@ -16,7 +16,7 @@ export const Header = () => {
           <div className="flex items-center space-x-2">
             <a href="/" className="h-6 sm:h-8">
               <img
-                src="/images/bautek_logo.png"  // Bautek-Logo
+                src="/images/ekotek_logo.png"  // Bautek-Logo
                 alt="Bautek Logo"
                 className="h-full"
               />
@@ -40,10 +40,10 @@ export const Header = () => {
               Produkte
             </a>
             <a
-              href="#ueber-bautek"
+              href="#ueber-ekotek"
               className=""
             >
-              Über Bautek
+              Über Ekotek
             </a>
             <a
               href="/#referenzen"
@@ -94,11 +94,11 @@ export const Header = () => {
                 Produkte
               </a>
               <a
-                href="/#ueber-bautek"
+                href="/#ueber-ekotek"
                 className=""
                 onClick={toggleMobileMenu}
               >
-                Über Bautek
+                Über Ekotek
               </a>
               <a
                 href="/#referenzen"
